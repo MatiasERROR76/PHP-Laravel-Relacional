@@ -50,7 +50,6 @@ Route::get('/usuario/pruebas', 'UserController@pruebas');
 Route::get('/categoria/pruebas', 'CategoryController@pruebas');
 Route::get('/entrada/pruebas', 'PostController@pruebas');
 
-
 //rutas del controlador de usuarios
 
 Route::post('api/register', 'Usercontroller@register');
